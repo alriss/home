@@ -6,19 +6,15 @@
   box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.19);
   transition: 0.3s;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
 }
 .feature-card1-feature-card:hover {
   transform: scale(1.02);
 }
-.feature-card1-text {
-  color: #ffffff;
-  margin-bottom: var(--dl-space-space-twounits);
-}
 .feature-card1-container {
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-medium);
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   border-radius: var(--dl-radius-radius-radius4);
@@ -28,8 +24,14 @@
   background-position: center;
 }
 .feature-card1-image {
-  width: 100px;
+  width: 60px;
   object-fit: cover;
+}
+.feature-card1-text {
+  color: #ffffff;
+  align-self: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-bottom: 0px;
 }
 
 
