@@ -1,0 +1,20 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+@media(max-width: 479px) {
+  .component-button {
+    color: #8c8c8c;
+    width: 35px;
+    height: 35px;
+    margin-left: 0px;
+    padding-top: 1rem;
+    border-color: rgba(41, 114, 115, 1);
+    border-width: 1px;
+    margin-right: 0px;
+    border-radius: 0px;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.48);
+    background-image: url();
+  }
+}
