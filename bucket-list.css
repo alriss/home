@@ -223,7 +223,7 @@
 }
 
 .component1-container {
-  width: 447px;
+  width: calc(100vw - 8px);
   height: 110px;
   display: flex;
   position: relative;
