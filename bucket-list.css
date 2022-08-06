@@ -238,7 +238,7 @@
 }
 .component1-container1 {
   flex: 0 0 auto;
-  width: 336px;
+  width: calc(100vw - 116px);
   height: auto;
   display: flex;
   position: relative;
@@ -246,7 +246,7 @@
   flex-direction: column;
 }
 .component1-container2 {
-  width: 312px;
+  width: calc(100vw - 132px);
   height: 44px;
   display: flex;
   align-items: center;
@@ -261,7 +261,7 @@
   font-weight: 700;
 }
 .component1-container3 {
-  width: 196px;
+  width: calc(100vw - 132px);
   height: 44px;
   display: flex;
   margin-top: var(--dl-space-space-halfunit);
