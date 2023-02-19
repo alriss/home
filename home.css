@@ -330,6 +330,10 @@
   text-decoration: none;
 }
 
+#nomepokemon {
+  padding-bottom: 50px;
+}
+
 @media(max-width: 991px) {
   .home-container1 {
     grid-template-columns: 1fr 1fr;
