@@ -329,10 +329,7 @@
 .home-component5 {
   text-decoration: none;
 }
-.home-iframe {
-  width: 320px;
-  height: 200px;
-}
+
 @media(max-width: 991px) {
   .home-container1 {
     grid-template-columns: 1fr 1fr;
