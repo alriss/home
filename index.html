@@ -57,6 +57,12 @@
       data-tag="font"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script>
+    function clickyClick() {
+    url = 'https://pokemon.gameinfo.io/en/pokemon/' + document.getElementById("nomepokemon").value
+    window.open(url, '_blank');
+}
+    </script>
   </head>
   <body>
     <div>
@@ -222,8 +228,31 @@
             <h2 class="feature-card1-text"><span>Pokemon</span></h2>
           </div>
         </a>
+            
+          <div
+            class="feature-card1-feature-card feature-card1-root-class-name4 popup" onclick="popup()"
+          >
+            <div class="feature-card1-container">
+              <img
+                alt="image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYurxFUAc7r4ZRjosA2jiRh0rdVLGemxJwj8SVPsQ&s"
+                class="feature-card1-image"
+              />
+            </div>
+            <h2 class="feature-card1-text"><span>Pokemon GO</span></h2>
+          </div>
+            
           </div>
         </div>
+        <div class="home-inputpokemon">
+      <input
+        type="text"
+        placeholder="Pokmeon GO"
+        class="input home-textinput"
+        id="nomepokemon"
+      />
+      <button class="button" onclick="clickyClick()">GO</button>
+    </div>
        <iframe width="320px" height="200px" src="https://www.youtube.com/embed/eQZy-lgkQSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
