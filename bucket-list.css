@@ -297,7 +297,6 @@
 
 .bucket-list-container {
   width: 100%;
-  padding-top: 112px;
   display: flex;
   overflow: auto;
   min-height: 100vh;
