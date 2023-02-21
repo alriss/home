@@ -131,6 +131,8 @@
     border-width: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    background-image: url("/playground_assets/logo_centr-1500h.png");
+    background-position: center;
   }
   .header-container1 {
     width: var(--dl-size-size-small);
@@ -141,6 +143,8 @@
     border-width: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    background-image: url("/playground_assets/logo_centr-1500h.png");
+    background-position: center;
   }
   .header-container2 {
     width: var(--dl-size-size-small);
