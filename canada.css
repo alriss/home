@@ -305,9 +305,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.film-container1 {
+.canada-container1 {
   flex: 0 0 auto;
   width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100px;
   display: flex;
   align-items: center;
