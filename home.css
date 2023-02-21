@@ -49,6 +49,8 @@
     margin-bottom: var(--dl-space-space-unit);
   }
 }
+
+
 .header-header {
   width: 100%;
   display: flex;
@@ -69,7 +71,7 @@
   align-items: center;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/logo_centr-1500h.png");
+  background-image: url("/playground_assets/logo_centr-1500h.png");
   background-position: center;
 }
 .header-container1 {
@@ -80,7 +82,7 @@
   align-items: center;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/logo_centr-1500h.png");
+  background-image: url("/playground_assets/logo_centr-1500h.png");
   background-position: center;
 }
 .header-container2 {
@@ -91,7 +93,7 @@
   align-items: center;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/logo_centr-1500h.png");
+  background-image: url("/playground_assets/logo_centr-1500h.png");
   background-position: center;
 }
 
@@ -107,12 +109,14 @@
 }
 @media(max-width: 479px) {
   .header-header {
-    padding: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-unit);
     border-color: #000000;
     border-width: 2px;
-    padding-right: 16px;
-    justify-content: space-between;
-    background-image: radial-gradient(circle at right top, rgb(69, 17, 185) 0.00%,rgb(124, 16, 163) 57.00%);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgb(48, 137, 138) 0.00%,rgb(41, 114, 115) 14.00%,rgb(41, 114, 115) 82.00%,rgb(34, 95, 96) 100.00%);
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -165,6 +169,7 @@
     background-image: linear-gradient(180deg, rgb(48, 137, 138) 0.00%,rgb(41, 114, 115) 14.00%,rgb(41, 114, 115) 82.00%,rgb(34, 95, 96) 100.00%);
   }
 }
+
 .feature-card1-feature-card {
   width: 100%;
   display: flex;
