@@ -242,6 +242,14 @@
   align-items: flex-start;
   justify-content: center;
 }
+.home-luquisha {
+  flex: 0 0 auto;
+  width: auto;
+  height: 11px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
 @media(max-width: 991px) {
   .home-container1 {
     grid-template-columns: 1fr 1fr;
